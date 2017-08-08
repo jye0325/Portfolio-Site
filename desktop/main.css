@@ -1,0 +1,92 @@
+﻿/*
+ *
+ *  Header
+ *
+ */
+h1 {
+    font-size: 50px;
+    margin:0;
+}
+h4{
+    margin:0;
+}
+.header {
+    border-bottom: 6px solid #7d97ad;
+    color:#2d3c49;
+    display:flex;
+    /*box-shadow: 0 0 5px rgb(128, 128, 128);*/
+}
+.header_logo {
+    display: inline-block;
+    float:left;
+    max-height:75px;
+    width:20%;
+}
+.header_title{
+    display:inline-block;
+    float:right;
+    padding:10px;
+    text-align:right;
+    width:80%;
+}
+.logo_scale {
+    clear: both;
+    margin-top: 10px;
+    margin-left: 10px;
+    max-height: inherit;
+    max-width: 100%;
+}
+
+/*
+ *
+ *  Body
+ *
+ */
+a{
+    color:#2d3c49;
+    font-size: small;
+    font-weight:bold;
+    text-decoration:none;
+  }
+h2{
+    font-size:35px;
+}
+ul{
+    padding:0px;
+}
+li{
+    list-style:none;
+}
+.center_picture{
+    clear:both;
+    display:block;
+    height:auto ;
+    max-width:100%;
+    margin:auto;
+}
+.content{
+    align-content:center;
+    padding: 1%;
+}
+.content_title {
+    color: #7d97ad;
+    border-bottom: 3px solid #7d97ad;
+    margin:0;
+}
+.img_scale{
+    clear:both;
+    height:auto;
+    max-height:175px;
+    max-width:100%;
+}
+.main_image{
+    align-content: center;
+    clear:both;
+    padding:3%;
+}
+.project_description{
+    display:inline-block;
+    text-align:center;
+    width:33%;
+}
+

@@ -1,0 +1,102 @@
+﻿/*
+ *
+ *  Header
+ *
+ */
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+h4 {
+    margin: 0;
+}
+.header {
+    border-bottom: 6px solid #7d97ad;
+    color:#2d3c49;
+    display:flex;
+    /*box-shadow: 0 0 5px rgb(128, 128, 128);*/
+}
+.header_logo {
+    display: inline-block;
+    float:left;
+    max-height:75px;
+    width:30%;
+}
+.header_title{
+    display:inline-block;
+    float:right;
+    padding:10px;
+    text-align:right;
+    width:70%;
+}
+.logo_scale {
+    clear: both;
+    margin-top:10px;
+    margin-left:10px;
+    max-height:75px;
+    max-width: 100%;
+}
+
+/*
+ *
+ *  Body
+ *
+ */
+a{
+    color:#2d3c49;
+    display:inline;
+    font-size:small;
+    font-weight:bold;
+    text-decoration:none;
+  }
+h2{
+    font-size:medium;
+    margin: 0;
+}
+li{
+    /* Omits bullets */
+    border-bottom: 1px solid #7d97ad;
+    padding:10px;
+    list-style: none;
+    width:100%;
+}
+ul {
+    padding-left: 20px;
+}
+.center_picture{
+    clear:both;
+    display:block;
+    height:auto ;
+    max-width:100%;
+    margin:auto;
+}
+.content{
+    padding: 10px;
+}
+.content_information{
+}
+.content_title {
+    color: #7d97ad;
+    border-bottom: 3px solid #7d97ad;
+}
+.img_scale{
+    /* Images to the left of the text */
+    display: inline;
+    float:left;
+    margin:0;
+    max-height:175px;
+    padding-right: 15px;
+    width:33%;
+}
+.main_image{
+    align-content: center;
+    clear:both;
+    padding:3%;
+}
+.project_description{
+    /* Project description to the right of the images */
+    display: inline-block;
+    float:right;
+    text-align:left;
+}
+
